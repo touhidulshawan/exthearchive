@@ -1,0 +1,11 @@
+#+title: Exthearchive
+#+author: Touhidul Shawan
+#+description: Fish plugin to extract the archive files
+
+* Fish plugin to extract the archive files
+Extract archive files with this plugins in fish shell
+
+*** Installation
+#+begin_src bash
+fisher install touhidulshawan/exthearchive
+#+end_src
