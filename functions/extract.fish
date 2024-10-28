@@ -18,6 +18,8 @@ function extract --description "Expand or extract bundled & compressed files"
             unrar x $argv[1]
         case zip
             unzip $argv[1]
+        case 7z
+            7za x $argv[1]
         case '*'
             echo "unknown extension"
     end
